@@ -52,4 +52,7 @@ document.ready(function (){
 		},
 		dataType: "json",
 	});
+        //searching place
+        $(".filters button").bind("click", searchPlace);
+        searchPlace();
 });
